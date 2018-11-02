@@ -1,0 +1,174 @@
+/*
+* 汎用
+*/
+/* 基本 */
+body {
+color:33333;
+font-size: 14px;
+}
+/* テーブル関係 */
+table {
+margin:0px;
+padding:0px;
+}
+th {
+color: #888888;
+font-size: 13px;
+font-weight: bold;
+}
+td {
+color: #888888;
+font-size: 13px;
+}
+/* インターフェース */
+/*
+button {
+color: #000000;
+background-color: #FFFFFF;
+border: 1px solid #2244DD;
+border-radius: 2px;
+padding:2px;
+letter-spacing: 2px;
+}
+/
+
+button{
+font-size: 12px;
+font-family: "tahoma","MS UI Gothic","ＭＳ Ｐゴシック";
+line-height:120%;
+border:1px solid #AAAAAA;
+border-bottom:1px solid #AAAAAA;
+border-right:1px solid #C2C2C2;
+border-top:1px solid #C2C2C2;
+color:#333333;
+cursor:pointer;
+background-color:#FFFFFF;
+}
+/* リンク */
+a:link {
+color: #008888;
+}
+a:visited {
+color: #005555;
+}
+a:active {
+text-decoration:none;
+color: #00BBBB;
+}
+a:hover {
+text-decoration:none;
+color: #00BBBB;
+}
+/*
+* 個別要素（クラス）
+*/
+body.inbody {
+background-color: #AADDDD;
+}
+table.read {
+background-color: #FFFFFF;
+width:800px;
+}
+table.not_read {
+background-color: #FFFFFF;
+font-weight: bold;
+width:800px;
+}
+table.list_channels_active {
+background-color: #FFFFFF;
+width:800px;
+}
+table.list_channels {
+background-color: #BBBBBB;
+width:800px;
+}
+td.desc {
+font-size: 12px;
+}
+tr.rw_menubar {
+height:30px;
+/* border-bottom: 1px solid #78BDC6; */
+}
+th.h_tabbtn {
+/*
+color:#FFFFFF;
+background-color: #78BDC6;
+/
+
+width:16%;
+border: 1px solid #78BDC6;
+border-top-left-radius: 10px;
+}
+tr.rw_tabbody {
+border: 1px solid #78BDC6;
+background-color: #78BDC6;
+}
+.tab_body {
+height:100%;
+width:100%;
+}
+button.small {
+width:14px;
+font-size: 11px;
+font-family: "tahoma","MS UI Gothic","ＭＳ Ｐゴシック";
+border:0px;
+color:#FFFFFF;
+cursor:pointer;
+background-color:#78BDC6;
+position:center;
+}
+/*
+* 個別要素（id）
+*/
+#new_feeds {
+background-color: #FFFFFF;
+display:block;
+}
+#channels {
+background-color: #FFFFFF;
+display:none;
+}
+#bookmarks {
+background-color: #FFFFFF;
+display:none;
+}
+#tbl_body {
+width:860px;
+height:500px;
+}
+#tbl_feeds {
+height:100%;
+width:100%;
+}
+#tbl_bookmarks {
+height:100%;
+width:100%;
+}
+#tbl_channels {
+height:100%;
+width:100%;
+}
+#feed_list {
+height:100%;
+width:100%;
+}
+#ifr_bookmark_list {
+height:100%;
+width:100%;
+}
+#ifr_channel_list {
+height:100%;
+width:100%;
+}
+#th_feeds {
+color:#FFFFFF;
+background-color:#78BDC6;
+}
+#th_bookmarks{
+color:#78BDC6;
+background-color:#FFFFFF;
+}
+#th_channels{
+color:#78BDC6;
+background-color:#FFFFFF;
+}

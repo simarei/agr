@@ -1,0 +1,66 @@
+<servlet>
+ <servlet-name>GetFeeds</servlet-name>
+ <servlet-class>dev.rei.agr.GetFeeds</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>GetFeeds</servlet-name>
+ <url-pattern>/get_feed</url-pattern>
+ </servlet-mapping>
+<servlet>
+ <servlet-name>GetChannels</servlet-name>
+ <servlet-class>dev.rei.agr.GetChannels</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>GetChannels</servlet-name>
+ <url-pattern>/get_channels</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>GetBookMarks</servlet-name>
+ <servlet-class>dev.rei.agr.GetBookMarks</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>GetBookMarks</servlet-name>
+ <url-pattern>/get_bookmarks</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>UpdateChannelActive</servlet-name>
+ <servlet-class>dev.rei.agr.UpdateChannelActive</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>UpdateChannelActive</servlet-name>
+ <url-pattern>/update_channel_active</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>InserteChannel</servlet-name>
+ <servlet-class>dev.rei.agr.InserteChannel</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>InserteChannel</servlet-name>
+ <url-pattern>/insert_channel</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>DeleteChannel</servlet-name>
+ <servlet-class>dev.rei.agr.DeleteChannel</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>DeleteChannel</servlet-name>
+ <url-pattern>/delete_channel</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>HandleFeeds</servlet-name>
+ <servlet-class>dev.rei.agr.HandleFeeds</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>HandleFeeds</servlet-name>
+ <url-pattern>/handle_feeds</url-pattern>
+ </servlet-mapping>
